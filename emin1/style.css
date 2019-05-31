@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;   
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 5;
+   
+    
+}
+.logo   {
+    width: 20%;
+    float: left;
+}
+.menu {
+    width: 80%;
+    float: left;
+}
+img{
+    width: 100%;
+}
+.menu li{
+    display: inline-block;
+
+}
+.menu ul{
+    margin-top: 25px;
+    margin-left: 150px;
+
+}
+.menu ul li{
+    margin-left: 60px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 10px;
+    
+}
+
+.menu li:hover {
+border-bottom: 4px solid #60cd96;
+transition: all .3s ease-in-out;
+}
+.icon{
+    float: left;
+    margin-left: 202px;
+    margin-top: 222px;
+}
+.text{
+    float: left;
+    font-size: 1.6em;
+    margin-top: 212px;
+    margin-left: 80px;
+
+}
+.text button{
+    border-radius: 36px;
+    outline: none;
+    padding: 15px 55px;
+    margin-top: 30px;
+    background-color: #60cd96;
+    color: #fff;
+    font-size: .8em;
+    border:none;
+    margin-left: -9px;
+}
+.text button:hover{
+    background-color: #ffa726;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+}
+.section1{
+    width: 100%;
+    height: 550px;
+    background: url("../emin1/images/slider-1-1920x900.jpg");
+    background-size: cover;
+    /* width: 1349px;
+    transform: translate3d(-1349px, 0px, 0px); */
+}
+.section1 h1{
+    margin-bottom: 20px;
+}
+#sections3{
+    display: inline-block;
+}
+.contents:first-child{
+     background-color: #60cd96; 
+}
+.contents:nth-child(2){
+    background-color: #69d2e7;
+}
+.contents:nth-child(3){
+    background-color: #f98f6f;
+}
+.contents:last-child{
+    background-color: #9d87c3;
+}
+.contents:nth-child(2) i{
+    font-size: 3.5em;
+}
+.contents:first-child i{
+    font-size: 3.5em;
+}
+.contents:nth-child(3) i{
+    font-size: 3.5em;
+}
+.areas1{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    display: flex;
+}
+.contents{
+    width: 25%;
+    height: 200px;
+    padding: 15px;
+}
